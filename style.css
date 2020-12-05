@@ -1,0 +1,195 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(rgba(240, 243, 245, 0.4), rgba(240, 243, 245, 0.4)), url('./images/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+h3 {
+    text-align: center;
+}
+
+.btn-start,
+.btn-survey {
+    width: 30%;
+}
+
+.info-form,
+.survey-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #000 ;
+    margin-top: 5em;
+}
+
+.well-done-content {
+    text-align: center;
+    align-items: center;
+}
+
+.well-done-alert {
+    background-color: #fff !important;
+    color: #555;
+    border-color: #555;
+    max-width: 50%;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+}
+
+.alert-success hr {
+    border-top-color: #555;
+}
+
+.angel,
+.devil {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+    width: 18rem;
+}
+
+.card-text-angel,
+.card-body-devil {
+    font-size: 32px;
+}
+
+.alert-danger {
+    text-align: center;
+}
+
+.card-body-angel{
+    background-color: #ffe2e7;
+}
+
+.card-body-devil{
+    background-color: #f33;
+    color: #333;
+}
+
+@media only screen and (max-width: 1200px) {
+
+    h1 {
+        font-size: 220%;
+    }
+
+    h3 {
+        font-size: 160%;
+    }
+
+    label {
+        font-size: 130%;
+    }
+
+    .checkbox {
+        font-size: 120%;
+    }
+
+    .small-card {
+        margin-top: 30px !important;
+    }
+
+    .btn-start,
+    .btn-survey {
+        width: 60%;
+        font-size: 120%;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .well-done-alert {
+        min-width: 60%;
+    }
+
+    .angel,
+    .devil {
+        width: 100%;
+    }
+
+    .card-text-angel,
+    .card-text-devil {
+        font-size: 36px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .info-form,
+    .survey-form {
+        padding: 5px;
+        margin-top: 0.8em;
+    }
+
+    h1 {
+        font-size: 180%;
+    }
+
+    h3 {
+        font-size: 130%;
+        margin: 10px;
+    }
+
+    label {
+        font-size: 100%;
+    }
+
+    .checkbox {
+        font-size: 90%;
+    }
+
+    .small-card {
+        margin: 10px 10px 15px !important ;
+    }
+
+    .btn-start,
+    .btn-survey {
+        width: 70%;
+        font-size: 120%;
+    }
+    
+    .card-text-angel,
+    .card-text-devil {
+        font-size: 28px;
+    }
+
+    .well-done-alert {
+        min-width: 80%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    h1 {
+        margin-top: 5px;
+        font-size: 120%;
+    }
+
+    h3 {
+        font-size: 100%;
+    }
+
+    label {
+        font-size: 90%;
+    }
+
+    .checkbox {
+        font-size: 80%;
+    }
+
+    .btn-start,
+    .btn-survey {
+        width: 65%;
+        font-size: 100%;
+    }
+}
