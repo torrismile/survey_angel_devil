@@ -1,4 +1,4 @@
-# Welcome to Candy Shop
+# Welcome to My Survey
 
 This project is hosted [here](http://survey.vikiniedobova.cz/).
 
