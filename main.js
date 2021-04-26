@@ -1,6 +1,8 @@
 function convertJson() {
     var $formElement = $('#info-form');
 
+    debugger;
+
     var unindexed_array = $formElement.serializeArray();
     var indexed_array = {};
 
@@ -27,7 +29,7 @@ function sentMessage(message) {
     };
     console.log("Sending request: ", requestOptions);
 
-    fetch("https://ubb0p6bsy0.execute-api.eu-central-1.amazonaws.com/default/send_email_myq", requestOptions)
+    fetch("https://qh7malpy7e.execute-api.eu-central-1.amazonaws.com/default/send_email_myq", requestOptions)
         .then(response => response.text())
         .then(result => console.log(result))
         .catch(error => console.log('error', error));
